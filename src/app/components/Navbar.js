@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-white fixed z-20 top-0 w-full start-0 border-b border-gray-300">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
         <Link href="/" className="flex items-center space-x-3">
-          <Image src="/labs4.png" alt="logo" width={110} height={50} />
+          <Image src="/Cut logo.PNG" alt="logo" width={110} height={50} />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0">
           <button className="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-1 text-center mx-2 my-1 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
