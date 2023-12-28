@@ -7,7 +7,7 @@ export default function Home() {
         <span className="text-3xl">
           Hey There, <br /> Im Ibnu
         </span>
-        <span className="sticky">
+        <span className="sticky hidden md:block">
           I design beautiful websites, <br /> and i love what i do
         </span>
       </div>
