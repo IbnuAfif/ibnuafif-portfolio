@@ -5,8 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         anton: ["Anton", "sans-serif"],
+        nohemi: ["Nohemi", "sans-serif"],
+        codenext: ["Code Next", "sans-serif"],
       },
       backgroundImage: {
+        "bg-hero": "url('/bg.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
