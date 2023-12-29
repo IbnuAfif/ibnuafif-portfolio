@@ -12,7 +12,6 @@ export default function Home() {
           I design beautiful websites, <br /> and i love what i do
         </span>
       </div>
-
       {/* End Text */}
 
       {/* Start Image */}
