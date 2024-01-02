@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        rag: ["rag-black", "sans-serif"],
         anton: ["Anton", "sans-serif"],
         nohemi: ["Nohemi", "sans-serif"],
         codenext: ["Code Next", "sans-serif"],
       },
       backgroundImage: {
-        "bg-hero": "url('/bg.png')",
+        "bg-hero": "url('/bg2.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white fixed z-20 top-0 w-full start-0 border-b border-gray-300">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
+    <nav className="bg-white fixed z-20 top-0 w-full start-0 border-b border-gray-300 px-4 md:px-12">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 ">
         <Link href="/" className="flex items-center space-x-3">
           <Image src="/Cut logo.PNG" alt="logo" width={110} height={50} />
         </Link>
