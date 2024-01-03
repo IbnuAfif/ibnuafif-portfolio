@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="md:mt-14 mt-4 md:px-16 w-full flex md:flex-row flex-col md:h-full items-center justify-center gap-1 bg-[#F8F7F2] font-rag ">
-      <div className="flex flex-col gap-12 w-auto md:w-1/5 pt-16 z-20">
-        <div className="flex flex-col items-center md:items-start md:mt-0 md:mb-8 text-4xl md:text-5xl font-semibold md:w-auto">
+    <div className="md:mt-14 mt-4 md:px-16 w-full flex md:flex-row flex-col md:h-full items-center justify-center gap-1 bg-[#F8F7F2] font-poppins ">
+      <div className="flex flex-col gap-12 w-auto md:w-1/4 pt-16 z-20">
+        <div className="flex flex-col items-center md:items-start md:mt-0 md:mb-8 text-4xl md:text-5xl font-semibold md:w-auto md:tracking-wide">
           <span className="md:my-0">Hey There,</span>
-          <span className="md:my-0">I&apos;m IbnuAfif</span>
+          <span className="md:my-0">I&apos;m Ibnu Afif</span>
         </div>
-        <span className="text-red-800 underline hidden md:block md:mt-10">ibnuafif015@gmail.com</span>
-        <span className="font-bold hidden md:block">SOFTWARE ENGINEER</span>
+        <span className="text-red-800 underline hidden md:block md:mt-5">ibnuafif015@gmail.com</span>
+        <span className="font-bold md:block">SOFTWARE ENGINEER</span>
       </div>
 
       <div className="">
@@ -17,7 +17,7 @@ export default function Hero() {
           <Image src="/user3.png" alt="logo" width={500} height={50} className=" " />
         </div>
       </div>
-      <div className="w-1/6 pt-16 text-right hidden md:block">
+      <div className="w-1/4 pt-16 text-right hidden md:block">
         <div className="w-auto">
           <div className="flex flex-col w-[200px] text-center">
             <span>i design beautifully website</span>
