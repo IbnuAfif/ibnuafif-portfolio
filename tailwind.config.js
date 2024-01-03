@@ -15,6 +15,7 @@ module.exports = {
         "bg-backend": "url('/backend.jpg')",
         "bg-web": "url('/web.jpg')",
         "bg-hero": "url('/bg2.png')",
+        "bg-hero2": "url('/bg.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

@@ -17,7 +17,7 @@ const PortoCard = () => {
   ];
   return (
     <section className="bg-white ">
-      <div className="container px-6 py-16 mx-auto">
+      <div className="container px-6 py-6 md:py-[53px] mx-auto">
         <div className="flex flex-col items-center">
           <span className="text-2xl font-semibold text-center capitalize lg:text-3xl">What do I help</span>
           <p className="mt-4 text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus</p>
